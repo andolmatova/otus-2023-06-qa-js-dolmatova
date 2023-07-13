@@ -1,29 +1,29 @@
 // kolobok
 
-function kolobok (character) {
+function kolobok(character) {
   switch (character) {
     case ('Дедушка'):
-      return console.log('Я от дедушки ушел')
+      return 'Я от дедушки ушел'
 
-    case ('Заяц'):
-      return console.log('Я от зайца ушел')
+    case 'Заяц':
+      return 'Я от зайца ушел'
 
-    case ('Лиса'):
-      return console.log('Меня съели!')
+    case 'Лиса':
+      return 'Меня съели!'
 
     default:
-      return console.log('Такого персонажа не существует!')
+      return 'Такого персонажа не существует!'
   }
 }
 
 // newYear
 
-function newYear (character) {
+function newYear(character) {
   let callCharacter = ''
 
   for (let i = 0; i < 3; i++) {
     callCharacter += `${character}! `
   }
 
-  return console.log(callCharacter)
+  return callCharacter
 }
