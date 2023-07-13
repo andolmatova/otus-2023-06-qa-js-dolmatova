@@ -1,0 +1,29 @@
+{
+  "name": "learning-qa-js-2023-06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andolmatova/otus-2023-06-qa-js-dolmatova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andolmatova/otus-2023-06-qa-js-dolmatova/issues"
+  },
+  "homepage": "https://github.com/andolmatova/otus-2023-06-qa-js-dolmatova#readme",
+  "dependencies": {
+    "jest": "^29.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
