@@ -25,5 +25,5 @@ function newYear (character) {
     callCharacter += `${character}! `
   }
 
-  return console.log(ourString)
+  return console.log(callCharacter)
 }
