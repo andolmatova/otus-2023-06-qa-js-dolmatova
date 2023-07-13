@@ -2,7 +2,7 @@
 
 function kolobok(character) {
   switch (character) {
-    case ('Дедушка'):
+    case 'Дедушка':
       return 'Я от дедушки ушел'
 
     case 'Заяц':
