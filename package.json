@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/andolmatova/otus-2023-06-qa-js-dolmatova#readme",
   "dependencies": {
-    "node-fetch": "^3.3.1"
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.12"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
+    "@jest/globals": "^29.6.1",
     "babel-jest": "^29.6.1",
     "eslint": "^8.44.0",
     "eslint-config-standard": "^17.1.0",
