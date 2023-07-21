@@ -5,7 +5,6 @@ const numbers = [1, 10, 20, 30]
 //     console.log('i', i)
 //     return  number * i
 // })
-
 // console.log('res1', res1)
 
 // numbers.forEach((number) => {
