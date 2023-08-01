@@ -26,6 +26,7 @@
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
     "@jest/globals": "^29.6.1",
+    "@types/node": "^20.4.4",
     "babel-jest": "^29.6.1",
     "eslint": "^8.44.0",
     "eslint-config-standard": "^17.1.0",
