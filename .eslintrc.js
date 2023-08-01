@@ -1,9 +1,12 @@
 module.exports = {
+  root: true,
+  plugins: ['jest'],
   env: {
+    browser: true, 
     es2021: true,
     node: true
   },
-  extends: 'standard',
+  extends: ['standard', 'plugin:jest/recommended'],
   overrides: [
     {
       env: {
@@ -13,7 +16,7 @@ module.exports = {
         '.eslintrc.{js,cjs}'
       ],
       parserOptions: {
-        sourceType: 'script'
+        sourceType: 'module'
       }
     }
   ],
