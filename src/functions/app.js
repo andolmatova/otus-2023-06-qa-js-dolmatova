@@ -39,3 +39,17 @@ export const getTotal = (items = [], discount = 0) => {
   }, 0)
   return total - total * discount / 100
 }
+
+/**
+ * @param {object} obj - Объект, в котором ключ это имя, а значение это успеваемость.
+ * @returns {number} - Возвращает сумму всех баллов.
+ * @example getScore({ Ann: 85, Helen: 92, Maria: 76 })) // 253
+ */
+// eslint-disable-next-line no-unused-vars
+function getScore (obj) {
+  let sum = 0
+  for (const key in obj) {
+    sum += obj[key]
+  }
+  return sum
+}
